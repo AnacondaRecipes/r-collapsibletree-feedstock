@@ -48,6 +48,10 @@ about:
   license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
 extra:
+  anaconda-services:
+    comment: "Built for customer"
+    recipe_maintainers:
+      - bkreider
   recipe-maintainers:
     - conda-forge/r
     - halldc
